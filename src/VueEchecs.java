@@ -16,7 +16,7 @@ public class VueEchecs extends Vue {
         getFrame().setTitle("Échecs");
         plateau.addObserver(this);
 
-        //this.plateau.initialiserGrille();
+        this.plateau.initialiserGrille();
 
 
         // TEST
@@ -26,7 +26,7 @@ public class VueEchecs extends Vue {
         //test.demoEchec();
         //test.demoEchecEtMat();
         //test.demoPriseEnPassant();
-        test.demoRoque();
+        //test.demoRoque();
         //test.demoPat();
         //test.demoCoupIllegal();
         //test.demoCoupIllegal2();
